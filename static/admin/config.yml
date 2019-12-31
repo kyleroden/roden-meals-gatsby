@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: kyleroden/roden-meals-gatsby
   branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
