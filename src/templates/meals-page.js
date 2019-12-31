@@ -47,6 +47,8 @@ const MealsPage = ({ data }) => {
 
 MealsPage.propTypes = {
   data: PropTypes.object.isRequired,
+  content: PropTypes.string,
+  contentComponent: PropTypes.func,
 }
 
 export default MealsPage
