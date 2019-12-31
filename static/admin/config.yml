@@ -51,6 +51,15 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/meals/index.md"
+        label: "Meals"
+        name: "meals"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "meals-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: Week of Meals, name: weekofmeals, widget: list, fields: [{label: Day, name: day, widget: string}, {label: Meal, name: meal, widget: string}]}
+
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
