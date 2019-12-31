@@ -3,7 +3,7 @@ templateKey: index-page
 title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
 heading: Week of Meals
-subheading: Support sustainable farming while enjoying a cup
+subheading: 'Eat food, mostly vegetables.'
 mainpitch:
   title: Why Kaldi
   description: >
